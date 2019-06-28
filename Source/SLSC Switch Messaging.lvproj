@@ -49,7 +49,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8816746B-F6F1-4B7E-A4E7-4068085DEA1B}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Windows/SLSCSwitchMessaging.lvlibp</Property>
