@@ -15,6 +15,7 @@ type = 'lvBuildSpec'
 project = '{library}'
 target = 'My Computer'
 build_spec = 'SLSC Switch Messaging'
+dependency_target = 'Windows'
 
 [[build.steps]]
 name = 'Pharlap SLSC Switch Library'
@@ -22,6 +23,7 @@ type = 'lvBuildSpec'
 project = '{library}'
 target = 'Pharlap'
 build_spec = 'SLSC Switch Messaging'
+dependency_target = 'Pharlap'
 
 [[build.steps]]
 name = 'Linux x64 SLSC Switch Library'
@@ -29,6 +31,7 @@ type = 'lvBuildSpec'
 project = '{library}'
 target = 'Linux x64'
 build_spec = 'SLSC Switch Messaging'
+dependency_target = 'Linux_x64'
 
 [[build.steps]]
 name = 'Linux ARM SLSC Switch Library'
@@ -36,3 +39,4 @@ type = 'lvBuildSpec'
 project = '{library}'
 target = 'Linux ARM'
 build_spec = 'SLSC Switch Messaging'
+dependency_target = 'Linux_32_ARM'
