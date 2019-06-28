@@ -1,0 +1,38 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+
+[dependencies.niveristand-custom-device-message-library]
+libraries = ['CDMessaging.lvlibp']
+copy_location = 'Includes'
+
+[projects.library]
+path = 'Source\SLSC Switch Messaging.lvproj'
+
+[[build.steps]]
+name = 'Windows SLSC Switch Library'
+type = 'lvBuildSpec'
+project = '{library}'
+target = 'My Computer'
+build_spec = 'SLSC Switch Messaging'
+
+[[build.steps]]
+name = 'Pharlap SLSC Switch Library'
+type = 'lvBuildSpec'
+project = '{library}'
+target = 'Pharlap'
+build_spec = 'SLSC Switch Messaging'
+
+[[build.steps]]
+name = 'Linux x64 SLSC Switch Library'
+type = 'lvBuildSpec'
+project = '{library}'
+target = 'Linux x64'
+build_spec = 'SLSC Switch Messaging'
+
+[[build.steps]]
+name = 'Linux ARM SLSC Switch Library'
+type = 'lvBuildSpec'
+project = '{library}'
+target = 'Linux ARM'
+build_spec = 'SLSC Switch Messaging'
