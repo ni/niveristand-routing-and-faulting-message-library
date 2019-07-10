@@ -13,11 +13,13 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- TODO: include build steps here.
+A single project is included, which defines build specifications for different operating systems to which this library may be deployed. To build for a specific operating system, the corresponding packed library from the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library) must be placed in the `Includes` directory of this repo.
 
 # Testing
 
-- TODO: include testing steps here.
+Unit tests are provided with the library. These tests can be run from within the LabVIEW
+project using the [VI Tester](https://github.com/JKISoftware/JKI-VI-Tester) integration, or from the command line
+using the `RunVITester` operation provided by the [testing tools](https://github.com/ni/niveristand-custom-device-testing-tools).
 
 # Developer Certificate of Origin (DCO)
 
