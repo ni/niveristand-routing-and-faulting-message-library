@@ -58,7 +58,6 @@
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
 		</Item>
 		<Item Name="SLSC Switch Messaging.lvlib" Type="Library" URL="../SLSC Switch Messaging.lvlib"/>
-		<Item Name="Usage3.vi" Type="VI" URL="../Usage3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
