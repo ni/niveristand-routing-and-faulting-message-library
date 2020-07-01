@@ -2,10 +2,6 @@
 *.lvlibp
 *.llb
 
-# Include this library to enable
-# testing
-!CDMessaging.lvlibp
-
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
