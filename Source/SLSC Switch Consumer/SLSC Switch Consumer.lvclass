@@ -95,14 +95,4 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="SLSC Switch - Initialize with Topology (Reservation Group and Override Switches).vi" Type="VI" URL="../SLSC Switch - Initialize with Topology (Reservation Group and Override Switches).vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(6!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!')!]&gt;C[]`M!!!!"%WZJ=WRT9X.M5W6T=WFP&lt;CZD&gt;'Q!2E"Q!"10&lt;GFT&lt;(.D=WR4:8.T;7^O!!!)&lt;GFT&lt;(.D=WQ!&amp;Q#!!!!!!!%!"!!!!!%!!!!!!!!,=W6T=WFP&lt;C"P&gt;81!'E!Q`````R&amp;S:8.F=H:B&gt;'FP&lt;C"H=G^V=!!71$$`````$8.X;82D;'6T)'JT&lt;WY!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31#%-=G6T:81A:'6W;7.F!!!31$$`````#(2P='^M&lt;W&gt;Z!!!K!$@`````!!58!)!!!!!!!1!%!!!!!1!!!!!!!!JT&lt;(.D2'6W;7.F!!!Y1(!!&amp;1JT&lt;(.D2'6W;7.F!!!"!!M%=WRT9Q!8!)!!!!!!!1!%!!!!!1!!!!!!!!:E:8:J9W5!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"Q!)!!E!#A!-!Q!!?!!!#1!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!#!!!!"!!!!!+!!!!#!!!!"!!!!!1!!!!!!%!$1!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 </LVClass>
