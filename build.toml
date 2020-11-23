@@ -40,3 +40,6 @@ project = '{library}'
 target = 'Linux ARM'
 build_spec = 'SLSC Switch Messaging'
 dependency_target = 'Linux_32_ARM'
+
+[notification]
+type = 'teams'
