@@ -50,9 +50,9 @@
 				<Item Name="SET GmbH www.smart-e-tech.com-8208(000000DC).caps" Type="Document" URL="../Tests/Assets/SET GmbH www.smart-e-tech.com-8208(000000DC).caps"/>
 			</Item>
 			<Item Name="Support" Type="Folder">
-				<Item Name="Mock SLSC Switch Consumer.lvclass" Type="LVClass" URL="../Tests/Support/Mock SLSC Switch Consumer.lvclass"/>
+				<Item Name="Mock NI-SWITCH Consumer.lvclass" Type="LVClass" URL="../Tests/Support/Mock NI-SWITCH Consumer.lvclass"/>
 			</Item>
-			<Item Name="SLSC Switch Messaging Tests.lvclass" Type="LVClass" URL="../Tests/SLSC Switch Messaging Tests/SLSC Switch Messaging Tests.lvclass"/>
+			<Item Name="NI-SWITCH Messaging Tests.lvclass" Type="LVClass" URL="../Tests/NI-SWITCH Messaging Tests/NI-SWITCH Messaging Tests.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
