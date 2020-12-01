@@ -449,10 +449,10 @@
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SLSC Switch Messaging" Type="Packed Library">
+			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D757EED2-D569-478C-9576-F1A435D9C632}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows</Property>
@@ -460,17 +460,17 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8816746B-F6F1-4B7E-A4E7-4068085DEA1B}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Windows/SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Windows/NISWITCHMessaging.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{845E7624-EB1F-4AC4-97EB-9EE791792052}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7248FCC3-4405-432E-858B-C029F953A403}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI-SWITCH Messaging.lvlib</Property>
@@ -481,12 +481,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SLSC Switch Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0BAF4DDF-CB96-4734-96AF-97DB08003E08}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -594,10 +594,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SLSC Switch Messaging" Type="Packed Library">
+			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E40B0B20-E467-4FA7-8E14-6F25A51EC95C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
@@ -608,8 +608,8 @@
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/NI_AB_TARGETNAME/SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/NI_AB_TARGETNAME/NISWITCHMessaging.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -617,7 +617,7 @@
 				<Property Name="Destination[1].path" Type="Path">/NI_AB_TARGETNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{22994686-A30E-464E-8781-CB19F3F507AB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4D6989F8-4CBE-4FF0-9464-BD759EEC22CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/NI-SWITCH Messaging.lvlib</Property>
@@ -628,12 +628,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SLSC Switch Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{72DDCCBA-8AD1-4D9B-99A3-E95102FE27FC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -744,10 +744,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SLSC Switch Messaging" Type="Packed Library">
+			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{43A62CED-A6A0-4BFA-9CC9-19092921AE29}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
@@ -757,8 +757,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{2369EF0F-C230-4133-BE6F-4D3DDC01C67C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/NISWITCHMessaging.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -766,7 +766,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3462DC87-5422-49FA-8135-E92FA986BB9E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2BAE4DD0-7DCE-4B93-BB82-47AE4A239AB0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/NI-SWITCH Messaging.lvlib</Property>
@@ -777,12 +777,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SLSC Switch Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6DA6F9FF-E06F-4365-B574-3A9E21B96737}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -892,10 +892,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SLSC Switch Messaging" Type="Packed Library">
+			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3FDF2D05-2F83-4F28-8687-FBDA457E18A9}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
@@ -905,8 +905,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B4496205-2F4A-4249-BF9D-232F2D0C93E6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/NISWITCHMessaging.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -914,7 +914,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C9B9B953-EF1E-4E43-9D30-FCA8CD67FAEB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48BED208-58DB-49AA-AE33-DE673726EE5B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux ARM/NI-SWITCH Messaging.lvlib</Property>
@@ -925,12 +925,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SLSC Switch Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">SLSC Switch Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{26EA9FAF-8433-4077-ADCE-16A35C23EB34}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SLSCSwitchMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
