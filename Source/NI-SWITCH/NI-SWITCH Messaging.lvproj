@@ -57,7 +57,7 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="SLSC Switch Messaging.lvlib" Type="Library" URL="../SLSC Switch Messaging.lvlib"/>
+		<Item Name="NI-SWITCH Messaging.lvlib" Type="Library" URL="../NI-SWITCH Messaging.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
@@ -473,7 +473,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{845E7624-EB1F-4AC4-97EB-9EE791792052}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SLSC Switch Messaging.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI-SWITCH Messaging.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -574,7 +574,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/CDMessaging.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 		</Item>
-		<Item Name="SLSC Switch Messaging.lvlib" Type="Library" URL="../SLSC Switch Messaging.lvlib"/>
+		<Item Name="NI-SWITCH Messaging.lvlib" Type="Library" URL="../NI-SWITCH Messaging.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -620,7 +620,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{22994686-A30E-464E-8781-CB19F3F507AB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/SLSC Switch Messaging.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/NI-SWITCH Messaging.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -692,7 +692,7 @@
 		<Item Name="Includes" Type="Folder">
 			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../Includes/CDMessaging.lvlibp"/>
 		</Item>
-		<Item Name="SLSC Switch Messaging.lvlib" Type="Library" URL="../SLSC Switch Messaging.lvlib"/>
+		<Item Name="NI-SWITCH Messaging.lvlib" Type="Library" URL="../NI-SWITCH Messaging.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -769,7 +769,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{3462DC87-5422-49FA-8135-E92FA986BB9E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/SLSC Switch Messaging.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/NI-SWITCH Messaging.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -840,7 +840,7 @@
 		<Item Name="Includes" Type="Folder">
 			<Item Name="CDMessaging.lvlibp" Type="LVLibp" URL="../../Includes/CDMessaging.lvlibp"/>
 		</Item>
-		<Item Name="SLSC Switch Messaging.lvlib" Type="Library" URL="../SLSC Switch Messaging.lvlib"/>
+		<Item Name="NI-SWITCH Messaging.lvlib" Type="Library" URL="../NI-SWITCH Messaging.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -917,7 +917,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{C9B9B953-EF1E-4E43-9D30-FCA8CD67FAEB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux ARM/SLSC Switch Messaging.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux ARM/NI-SWITCH Messaging.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
