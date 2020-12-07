@@ -1,6 +1,10 @@
-# SLSC Switch Message Library
+# Routing and Faulting Message Library
 
-This library is a concrete NI-SLSC Switch instantiation of the Switch consumer defined by the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library).
+This library provides concrete implementations of the Switch consumer defined by the [Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library).
+
+The following implementations are provided:
+
+- NI-SLSC Switch
 
 ## LabVIEW Version
 LabVIEW 2017

@@ -1,11 +1,11 @@
-# Contributing to niveristand-slsc-switch-message-library
+# Contributing to niveristand-routing-and-faulting-message-library
 
-Contributions to niveristand-slsc-switch-message-library are welcome from all!
+Contributions to niveristand-routing-and-faulting-message-library are welcome from all!
 
-niveristand-slsc-switch-message-library is managed via [git](https://git-scm.com), with the canonical upstream
-repository hosted on [GitHub](https://github.com/ni/niveristand-slsc-switch-message-library/).
+niveristand-routing-and-faulting-message-library is managed via [git](https://git-scm.com), with the canonical upstream
+repository hosted on [GitHub](https://github.com/ni/niveristand-routing-and-faulting-message-library/).
 
-niveristand-slsc-switch-message-library follows a pull-request model for development.  If you wish to
+niveristand-routing-and-faulting-message-library follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -51,5 +51,5 @@ using the `RunVITester` operation provided by the [testing tools](https://github
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/niveristand-slsc-switch-message-library/blob/main/LICENSE)
-for details about how niveristand-slsc-switch-message-library is licensed.
+See [LICENSE](https://github.com/ni/niveristand-routing-and-faulting-message-library/blob/main/LICENSE)
+for details about how niveristand-routing-and-faulting-message-library is licensed.
