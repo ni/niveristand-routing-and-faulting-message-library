@@ -1,5 +1,5 @@
 [archive]
-build_output_dir = 'Built'
+build_output_dir = 'Source\Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
 
 [dependencies.niveristand-custom-device-message-library]
@@ -7,7 +7,7 @@ libraries = ['CDMessaging.lvlibp']
 copy_location = 'Includes'
 
 [projects.library]
-path = 'Source\SLSC Switch Messaging.lvproj'
+path = 'Source\SLSC Switch\SLSC Switch Messaging.lvproj'
 
 [[build.steps]]
 name = 'Windows SLSC Switch Library'
