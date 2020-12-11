@@ -5,6 +5,7 @@ This library provides concrete implementations of the Switch consumer defined by
 The following implementations are provided:
 
 - NI-SLSC Switch
+- NI-SWITCH
 
 ## LabVIEW Version
 LabVIEW 2017
@@ -12,6 +13,7 @@ LabVIEW 2017
 ## Dependencies
 - The packed library build from [NI VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library).
 - NI-SLSC Switch 19.1+ (included with NI-SLSC 19.5+)
+- NI-SWITCH
 - The [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools) to run automated tests.
 
 ## Git History & Rebasing Policy
