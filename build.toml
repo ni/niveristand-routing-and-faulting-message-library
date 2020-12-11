@@ -6,13 +6,16 @@ archive_location = '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging
 libraries = ['CDMessaging.lvlibp']
 copy_location = 'Includes'
 
-[projects.library]
+[projects.slsc_switch]
 path = 'Source\SLSC Switch\SLSC Switch Messaging.lvproj'
+
+[projects.ni_switch]
+path = 'Source\NI-SWITCH\NI-SWITCH Messaging.lvproj'
 
 [[build.steps]]
 name = 'Windows SLSC Switch Library'
 type = 'lvBuildSpec'
-project = '{library}'
+project = '{slsc_switch}'
 target = 'My Computer'
 build_spec = 'SLSC Switch Messaging'
 dependency_target = 'Windows'
@@ -20,7 +23,7 @@ dependency_target = 'Windows'
 [[build.steps]]
 name = 'Pharlap SLSC Switch Library'
 type = 'lvBuildSpec'
-project = '{library}'
+project = '{slsc_switch}'
 target = 'Pharlap'
 build_spec = 'SLSC Switch Messaging'
 dependency_target = 'Pharlap'
@@ -28,7 +31,7 @@ dependency_target = 'Pharlap'
 [[build.steps]]
 name = 'Linux x64 SLSC Switch Library'
 type = 'lvBuildSpec'
-project = '{library}'
+project = '{slsc_switch}'
 target = 'Linux x64'
 build_spec = 'SLSC Switch Messaging'
 dependency_target = 'Linux_x64'
@@ -36,9 +39,41 @@ dependency_target = 'Linux_x64'
 [[build.steps]]
 name = 'Linux ARM SLSC Switch Library'
 type = 'lvBuildSpec'
-project = '{library}'
+project = '{slsc_switch}'
 target = 'Linux ARM'
 build_spec = 'SLSC Switch Messaging'
+dependency_target = 'Linux_32_ARM'
+
+[[build.steps]]
+name = 'Windows NI-SWITCH Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'My Computer'
+build_spec = 'NI-SWITCH Messaging'
+dependency_target = 'Windows'
+
+[[build.steps]]
+name = 'Pharlap NI-SWITCH Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'Pharlap'
+build_spec = 'NI-SWITCH Messaging'
+dependency_target = 'Pharlap'
+
+[[build.steps]]
+name = 'Linux x64 NI-SWITCH Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'Linux x64'
+build_spec = 'NI-SWITCH Messaging'
+dependency_target = 'Linux_x64'
+
+[[build.steps]]
+name = 'Linux ARM NI-SWITCH Library'
+type = 'lvBuildSpec'
+project = '{ni_switch}'
+target = 'Linux ARM'
+build_spec = 'NI-SWITCH Messaging'
 dependency_target = 'Linux_32_ARM'
 
 [notification]
