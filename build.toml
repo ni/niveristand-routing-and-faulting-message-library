@@ -68,13 +68,5 @@ target = 'Linux x64'
 build_spec = 'NI-SWITCH Messaging'
 dependency_target = 'Linux_x64'
 
-[[build.steps]]
-name = 'Linux ARM NI-SWITCH Library'
-type = 'lvBuildSpec'
-project = '{ni_switch}'
-target = 'Linux ARM'
-build_spec = 'NI-SWITCH Messaging'
-dependency_target = 'Linux_32_ARM'
-
 [notification]
 type = 'teams'
