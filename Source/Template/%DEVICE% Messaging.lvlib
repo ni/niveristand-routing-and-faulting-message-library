@@ -8,5 +8,5 @@
 
 </Property>
 	<Item Name="%DEVICE% Consumer.lvclass" Type="LVClass" URL="../%DEVICE% Consumer/%DEVICE% Consumer.lvclass"/>
-	<Item Name="%DEVICE% Init Parameters.lvclass" Type="LVClass" URL="../%DEVICE Init Parameters/%DEVICE% Init Parameters.lvclass"/>
+	<Item Name="%DEVICE% Init Parameters.lvclass" Type="LVClass" URL="../%DEVICE% Init Parameters/%DEVICE% Init Parameters.lvclass"/>
 </Library>
