@@ -476,10 +476,10 @@
 		<Item Name="%DEVICE% Messaging.lvlib" Type="Library" URL="../%DEVICE% Messaging.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
+			<Item Name="%DEVICE% Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E40B0B20-E467-4FA7-8E14-6F25A51EC95C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
@@ -490,8 +490,8 @@
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/NI_AB_TARGETNAME/NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">%DEVICE%Messaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/NI_AB_TARGETNAME/%DEVICE%Messaging.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -499,7 +499,7 @@
 				<Property Name="Destination[1].path" Type="Path">/NI_AB_TARGETNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D6989F8-4CBE-4FF0-9464-BD759EEC22CC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{76F34F0D-D203-46D3-9DF4-93095C11A93F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/%DEVICE% Messaging.lvlib</Property>
@@ -510,12 +510,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">%DEVICE% Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{72DDCCBA-8AD1-4D9B-99A3-E95102FE27FC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">%DEVICE%Messaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -610,10 +610,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
+			<Item Name="%DEVICE% Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{43A62CED-A6A0-4BFA-9CC9-19092921AE29}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
@@ -623,8 +623,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{2369EF0F-C230-4133-BE6F-4D3DDC01C67C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">%DEVICE%Messaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/%DEVICE%Messaging.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -632,7 +632,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BAE4DD0-7DCE-4B93-BB82-47AE4A239AB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D98D6D9C-DC96-4292-A689-5CE2B04B7597}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/%DEVICE% Messaging.lvlib</Property>
@@ -643,12 +643,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">%DEVICE% Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6DA6F9FF-E06F-4365-B574-3A9E21B96737}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">%DEVICE%Messaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -742,10 +742,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="NI-SWITCH Messaging" Type="Packed Library">
+			<Item Name="%DEVICE% Messaging" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3FDF2D05-2F83-4F28-8687-FBDA457E18A9}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
@@ -755,8 +755,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{B4496205-2F4A-4249-BF9D-232F2D0C93E6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NISWITCHMessaging.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/NISWITCHMessaging.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">%DEVICE%Messaging.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/%DEVICE%Messaging.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -764,7 +764,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{48BED208-58DB-49AA-AE33-DE673726EE5B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5EC1F16B-1D22-45DF-BC11-CE1BA208FB69}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux ARM/%DEVICE% Messaging.lvlib</Property>
@@ -775,12 +775,12 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NI-SWITCH Messaging</Property>
-				<Property Name="TgtF_internalName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">%DEVICE% Messaging</Property>
+				<Property Name="TgtF_internalName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">NI-SWITCH Messaging</Property>
+				<Property Name="TgtF_productName" Type="Str">%DEVICE% Messaging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{26EA9FAF-8433-4077-ADCE-16A35C23EB34}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NISWITCHMessaging.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">%DEVICE%Messaging.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
