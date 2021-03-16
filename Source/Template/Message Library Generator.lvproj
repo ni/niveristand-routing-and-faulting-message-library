@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Copy Template.vi" Type="VI" URL="../Copy Template.vi"/>
 		<Item Name="Generate New Message Libary Project.vi" Type="VI" URL="../Generate New Message Libary Project.vi"/>
+		<Item Name="Root Directory.vi" Type="VI" URL="../Root Directory.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
