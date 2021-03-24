@@ -50,7 +50,7 @@
 			<Item Name="Support" Type="Folder">
 				<Item Name="Mock %DEVICE% Consumer.lvclass" Type="LVClass" URL="../Tests/Support/Mock %DEVICE% Consumer.lvclass"/>
 			</Item>
-			<Item Name="%DEVICE% Messaging Tests.lvclass" Type="LVClass" URL="../Tests/NI-SWITCH Messaging Tests/%DEVICE% Messaging Tests.lvclass"/>
+			<Item Name="%DEVICE% Messaging Tests.lvclass" Type="LVClass" URL="../Tests/Messaging Tests/%DEVICE% Messaging Tests.lvclass"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
