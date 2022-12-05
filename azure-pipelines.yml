@@ -123,7 +123,7 @@ stages:
 
             - template: azure-templates\post-job-steps.yml@imitation-cd # nipkg and archive
               parameters:
-                package:             ${{ parameters.packages }}
+                packages:             ${{ parameters.packages }}
                 buildOutputLocation: ${{ parameters.buildOutputLocation }}
                 archiveLocation:     ${{ parameters.archiveLocation }}
                 pack:                false
