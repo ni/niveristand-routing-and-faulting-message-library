@@ -8,13 +8,14 @@ The following implementations are provided:
 - NI-SWITCH
 
 ## LabVIEW Version
-LabVIEW 2017
+LabVIEW 2020
 
 ## Dependencies
 - The packed library build from [NI VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library).
-- NI-SLSC Switch 19.1+ (included with NI-SLSC 19.5+)
+- NI-SLSC Switch (included with NI-SLSC)
 - NI-SWITCH
-- The [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools) to run automated tests.
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
