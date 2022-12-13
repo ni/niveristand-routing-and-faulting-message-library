@@ -30,7 +30,7 @@ stages:
           bitness: '64bit'
 
       dependencies:
-        - source: '\\nirvana\Measurements\VeriStandAddons\messaging_library'
+        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\messaging_library'
           file: 'CDMessaging.lvlibp'
           destination: 'Includes'
 
@@ -58,7 +58,7 @@ stages:
       releaseVersion: '23.0.0'
       quarterlyReleaseVersion: '2023 Q1'
       buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\daqserver\temp\papower\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
 
       pack: false
       packages:
