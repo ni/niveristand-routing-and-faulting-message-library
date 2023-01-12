@@ -62,7 +62,3 @@ stages:
       quarterlyReleaseVersion: '2023 Q1'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
-
-      pack: false
-      packages:
-      - noPackage: ''
