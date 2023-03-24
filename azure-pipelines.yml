@@ -12,7 +12,6 @@ resources:
       ref:        main
       endpoint:   nivs-custom-devices
       name:       ni/niveristand-custom-device-build-tools
-# Pipeline Completion Triggers:
   pipelines:
     - pipeline: VeristandMessageLibrary
       source:   ni.niveristand-custom-device-message-library
@@ -33,7 +32,7 @@ stages:
           bitness: '64bit'
 
       dependencies:
-        - source: '\\nirvana\\Measurements\VeriStandAddons\prototype\messaging_library'
+        - source: '\\nirvana\Measurements\VeriStandAddons\messaging_library'
           file: 'CDMessaging.lvlibp'
           destination: 'Includes'
 
@@ -58,7 +57,6 @@ stages:
           target: 'Linux x64'
           buildSpec: 'NI-SWITCH Messaging'
 
-      releaseVersion: '23.0.0'
-      quarterlyReleaseVersion: '2023 Q1'
+      releaseVersion: '23.3.0'
       buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\prototype\slsc_switch_messaging_library'
+      archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\slsc_switch_messaging_library'
