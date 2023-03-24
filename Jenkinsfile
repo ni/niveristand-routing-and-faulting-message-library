@@ -7,6 +7,4 @@ def lvVersions = [
   64 : ['2021', '2023']
 ]
 
-List<String> dependencies = ['niveristand-custom-device-message-library']
-
 diffPipeline(lvVersions)

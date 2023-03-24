@@ -15,10 +15,7 @@ resources:
   pipelines:
     - pipeline: VeristandMessageLibrary
       source:   ni.niveristand-custom-device-message-library
-      trigger:
-        branches:
-          include:
-            - main
+      trigger:  true
 
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
