@@ -56,4 +56,4 @@ stages:
 
       releaseVersion: '23.3.0'
       buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\nirvana\\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
