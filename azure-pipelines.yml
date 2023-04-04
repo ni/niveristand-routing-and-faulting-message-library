@@ -30,7 +30,7 @@ stages:
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\messaging_library'
-          file: 'CDMessaging.lvlibp'
+          file: '$target\CDMessaging.lvlibp'
           destination: 'Includes'
 
       buildSteps:
