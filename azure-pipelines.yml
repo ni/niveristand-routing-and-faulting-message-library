@@ -28,8 +28,6 @@ stages:
           bitness: '64bit'
         - version: '2024'
           bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
 
       dependencies:
         - source: '\\nirvana\Measurements\VeriStandAddons\messaging_library'
