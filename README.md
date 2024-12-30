@@ -7,8 +7,8 @@ The following implementations are provided:
 - NI-SLSC Switch
 - NI-SWITCH
 
-## LabVIEW Version
-LabVIEW 2020
+## Development Version
+LabVIEW 2023
 
 ## Dependencies
 - The packed library build from [NI VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library).
