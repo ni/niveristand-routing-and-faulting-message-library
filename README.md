@@ -8,7 +8,7 @@ The following implementations are provided:
 - NI-SWITCH
 
 ## Development Version
-LabVIEW 2023
+LabVIEW 2024
 
 ## Dependencies
 - The packed library build from [NI VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library).
