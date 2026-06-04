@@ -57,6 +57,6 @@ stages:
           target: 'Linux x64'
           buildSpec: 'NI-SWITCH Messaging'
 
-      releaseVersion: '26.0.0'
+      releaseVersion: '26.5.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
