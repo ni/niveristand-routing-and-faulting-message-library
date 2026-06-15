@@ -60,3 +60,5 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      repoName: 'niveristand-routing-and-faulting-message-library'
+      createNetCoreRepo: true
