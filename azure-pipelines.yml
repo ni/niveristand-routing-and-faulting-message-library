@@ -62,3 +62,32 @@ stages:
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
       repoName: 'niveristand-routing-and-faulting-message-library'
       createNetCoreRepo: true
+
+  - template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2026'
+          bitness: '64bit'
+
+      buildSteps:
+        - id: 'slsc_switch_messaging'
+          projectLocation: 'Source/SLSC Switch/SLSC Switch Messaging.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'SLSC Switch Messaging'
+
+        - id: 'switch_messaging'
+          projectLocation: 'Source/NI-SWITCH/NI-SWITCH Messaging.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'NI-SWITCH Messaging'
+      
+      releaseVersion: '26.5.0'
+      branch: 'main'
+      debugBuild: 'no'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
+      repoName: 'niveristand-routing-and-faulting-message-library'
+      copyDependencies: true
+      binariesPath: 'Windows'
+      destinationPath: 'Includes'
