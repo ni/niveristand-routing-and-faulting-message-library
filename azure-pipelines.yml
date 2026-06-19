@@ -88,6 +88,6 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
       repoName: 'niveristand-routing-and-faulting-message-library'
-      copyDependencies: true
+      copyDependencies: 'yes'
       binariesPath: 'Windows'
       destinationPath: 'Includes'
