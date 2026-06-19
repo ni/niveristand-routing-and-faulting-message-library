@@ -91,3 +91,4 @@ stages:
       copyDependencies: 'yes'
       binariesPath: 'Windows'
       destinationPath: 'Includes'
+      binaryExportCdName: 'niveristand-custom-device-message-library'
