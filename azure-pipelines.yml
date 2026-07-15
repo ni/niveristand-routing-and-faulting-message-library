@@ -5,13 +5,17 @@ trigger:
       - main
       - release/*
 
+variables:
+  - name: ConvertNetCore
+    value: false
+
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
-      type:       github
-      ref:        main
-      endpoint:   nivs-custom-devices
-      name:       ni/niveristand-custom-device-build-tools
+      type: github
+      ref: main
+      endpoint: nivs-custom-devices
+      name: ni/niveristand-custom-device-build-tools
   pipelines:
     - pipeline: VeristandMessageLibrary
       source:   ni.niveristand-custom-device-message-library
@@ -61,4 +65,3 @@ stages:
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\slsc_switch_messaging_library'
       repoName: 'niveristand-routing-and-faulting-message-library'
-      createNetCoreRepo: true
